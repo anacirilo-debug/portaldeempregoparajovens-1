@@ -41,3 +41,13 @@ Execute o script `docs/schema.sql` no MySQL Workbench para criar o banco `portal
 - Maven
 - MySQL 8.0
 - JDBC (Driver mysql-connector-j 9.1.0)
+
+## Configuração do Ambiente de Desenvolvimento (VS Code)
+
+Para executar o projeto com o ambiente portátil padronizado:
+1. Ferramentas localizadas em `C:\dev\tools`:
+   - Apache Maven 3.9.14 (`C:\dev\tools\apache-maven-3.9.14`)
+   - PortableGit (`C:\dev\tools\PortableGit`)
+2. Extensão no VS Code:
+   - **Extension Pack for Java** (Microsoft)
+3. Configurações salvas em `.vscode/settings.json` para mapeamento automático dos executáveis e terminal Git Bash Portable.

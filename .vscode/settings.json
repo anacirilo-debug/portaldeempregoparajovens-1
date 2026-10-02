@@ -1,0 +1,15 @@
+{
+  "maven.executable.path": "C:\\dev\\tools\\apache-maven-3.9.14\\bin\\mvn.cmd",
+  "git.path": "C:\\dev\\tools\\PortableGit\\bin\\git.exe",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash Portable": {
+      "path": "C:\\dev\\tools\\PortableGit\\bin\\bash.exe",
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash Portable",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\dev\\tools\\apache-maven-3.9.14\\bin;${env:PATH}",
+    "MAVEN_HOME": "C:\\dev\\tools\\apache-maven-3.9.14"
+  }
+}
